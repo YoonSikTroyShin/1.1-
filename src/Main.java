@@ -7,15 +7,10 @@ public class Main {
         int[] yearning = {11, 1, 55};
         String[][] photo = 	{{"kali", "mari", "don"}, {"pony", "tom", "teddy"}, {"con", "mona", "don"}};
 
+        Solution solution = new Solution();
+
+        solution.Solution(name, yearning, photo);
     }
 
-    class Solution {
-        public int[] solution(String[] name, int[] yearning, String[][] photo) {
-            int[] answer = {};
 
-
-
-            return answer;
-        }
-    }
 }
